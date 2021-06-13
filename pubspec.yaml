@@ -1,0 +1,64 @@
+name: scientific_calculator
+description: Scientific Calculator in Flutter
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  age: ^0.0.1
+  table_calendar: ^2.3.0
+  flutter_localizations:
+    sdk: flutter
+  google_fonts: 1.1.0
+  math_expressions: ^2.0.0
+  material_design_icons_flutter: 4.0.5755
+  flutter_vector_icons: ^0.2.1
+  charts_flutter: ^0.8.1
+  rflutter_alert: ^1.0.3
+
+  cupertino_icons: ^0.1.3
+  english_words: ^3.1.5
+  font_awesome_flutter: ^8.5.0
+  scoped_model: "^0.3.0"
+  http: ^0.12.0
+  shared_preferences: ^0.5.1+1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.5
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: assets/icon/icon_ios.png
+  image_path_android: assets/icon/icon_android.png
+  adaptive_icon_background: assets/icon/icon_background.png
+  adaptive_icon_foreground: assets/icon/icon_foreground.png
+ 
+
+flutter:
+  assets:
+    - images/icon.png
+    - images/length.png
+    - images/logo.jpeg
+    - images/money.png
+   
+
+  uses-material-design: true
+fonts:
+     - family: Ruge Boogie
+       fonts:
+         - asset: fonts/RugeBoogie-Regular.ttf
+           weight: 300
+     - family: Quicksand
+       fonts:
+        - asset: assets/Quicksand-Regular.ttf       
+     - family: Trajan Pro
+       fonts:
+         - asset: fonts/TrajanPro.ttf
+         - asset: fonts/TrajanPro_Bold.ttf
+           weight: 700
+ 
