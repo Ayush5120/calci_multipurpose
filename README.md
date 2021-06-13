@@ -7,3 +7,10 @@ Scientific Calculator in Flutter
 2. Clone the repo.
 3. Copy the files and replace pubspec.yaml in your project directory.
 
+
+#Error you might face
+1. You might see a import error in widget_test.dart file inside test directory
+   you can esaily solve this by replacing import...../main.dart with import 'package:scientific_calculator/main.dart';
+
+
+
