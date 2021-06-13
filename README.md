@@ -14,7 +14,7 @@ Scientific Calculator in Flutter
    
 #App logo 
 default flutter logo is set when you make a new flutter project 
-you can change it in E:\Flutter\calcitest\##android\app\src\main\res
+you can change it in E:\Flutter\calcitest\android\app\src\main\res
 
 
 
